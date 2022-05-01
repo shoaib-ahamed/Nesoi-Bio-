@@ -38,6 +38,7 @@ function App() {
               <Route path='/form'>
                   <Nav/>
                   <Form/>
+                  {/* <ContactUs/> */}
               </Route>
 
               <Route path='/admin'>

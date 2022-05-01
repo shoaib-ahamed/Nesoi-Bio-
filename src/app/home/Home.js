@@ -214,7 +214,6 @@ class Home extends Component {
                                         Access a wide range of effective traditional and complementary health therapies. Our approach  cares for your overall well-being, holistically.
                                         </p>
                                         <button className="btn" onClick={this.scrollViewSection}>
-                                            <Lottie style={lottieStyle} options={viewServicesLottieOptions}/>
                                             Talk to a Therapist
                                         </button>
                                     </div>
@@ -242,7 +241,6 @@ class Home extends Component {
                                         </p>
                                         <Link to='/form' >
                                             <button className="btn" name="buildYourIdentity" onClick="">
-                                                {/* <Lottie style={lottieStyle} options={buildIdentityAndPrototypeLottieOptions}/> */}
                                                 Starts Therapy Now
                                             </button>
                                         </Link>
@@ -268,7 +266,7 @@ class Home extends Component {
                                         </p>
                                         <Link to='/form'>
                                             <button className="btn">
-                                                <Lottie style={lottieStyle} options={buildingWebsiteLottieOptions}/>
+                                                
                                                 Plan Your Care
                                             </button>
                                         </Link>
@@ -297,7 +295,7 @@ class Home extends Component {
                                         </p>
                                         <Link to='/form'>
                                             <button className="btn">
-                                                {/* <Lottie style={lottieStyle} options={buildIdentityAndPrototypeLottieOptions}/> */}
+                                                
                                                 Wellness Survey
                                             </button>
                                         </Link>
@@ -523,7 +521,7 @@ class Home extends Component {
                                         <h5>Enhance your professional practice by offering your services on our platform</h5>
                                         <p onClick={this.handleCalendly}>
                                             <button className="btn">
-                                                {/* <Lottie style={lottieStyle} options={workshopLottieOptions} /> */}
+                                                
                                                 Learn More
                                             </button>
                                         </p>

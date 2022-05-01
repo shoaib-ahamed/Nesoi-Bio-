@@ -5,7 +5,6 @@ import Modal from 'react-modal';
 import { Link } from "react-router-dom";
 import back from "../../assets/home/back.svg";
 import form from '../../assets/home/form.svg';
-import info from '../../assets/home/info.svg';
 import getInTouchLottie from '../../assets/home/lottie/get-in-touch.json';
 import thankYouLottie from '../../assets/home/lottie/thank-you.json';
 import './Home.css';
@@ -152,8 +151,8 @@ class Form extends Component {
                             <div className='row'>
                                 <div className='col-lg-7'>
                                     <Link to='/'><button className="btn back-btn"><span><img className='back-arrow' src={back} alt="back"/></span> Back</button></Link>
-                                    <h2>Let's have a talk !</h2>
-                                    <h5>It all starts with a good discussion</h5>
+                                    <h2>Contact us</h2>
+                                    <h5>Connect with our team & get updates</h5>
                                     <form onSubmit={this.handleSubmit} ref={(formData) => this.OtherForm = formData}>
                                         <div className="mb-3">
                                             <input value={this.state.value} onChange={this.handleInputName} type="text" className="form-control" placeholder="Your name" required />
@@ -162,25 +161,13 @@ class Form extends Component {
                                             <input value={this.state.value} onChange={this.handleInputEmailAddress} type="email" className="form-control" placeholder="Your email" required />
                                         </div>
                                         <div className="mb-3">
-                                            <input value={this.state.value} onChange={this.handleInputCompanyName} type="text" className="form-control" placeholder="Company name (Optional)" />
+                                            <textarea style={{marginBottom: 0}} value={this.state.value} onChange={this.handleInputDescription} rows="4" className="form-control" placeholder="Location (City, State, Country)" />
                                         </div>
                                         <div className="mb-3">
-                                            <textarea style={{marginBottom: 0}} value={this.state.value} onChange={this.handleInputDescription} rows="4" className="form-control" placeholder="Tell us about your project (Optional)" />
-                                            <div className="form-info">
-                                                <img src={info} alt="info" />
-                                                <p>
-                                                    Tell us what it is you hope to accomplish with us and lay out any
-                                                    problems.
-                                                    Provide an overview of your project scope, timeline, and budget.
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div className="mb-3">
-                                            <input value={this.state.value} onChange={this.handleInputBudget} type='text' className="form-control" placeholder="Budget in mind (Optional)" />
+                                            <input value={this.state.value} onChange={this.handleInputBudget} type='text' className="form-control" placeholder="How can we help you?" />
                                         </div>
                                         <div className="submit-btn">
-                                            <button type="submit" className="btn" >Get in touch</button>
-                                            <Lottie style={lottieStyle} options={getInTouchLottieOptions} />
+                                            <button type="submit" className="btn" >Send</button>
                                         </div>
                                     </form>
                                 </div>
