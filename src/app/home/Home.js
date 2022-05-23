@@ -65,10 +65,10 @@ class Home extends Component {
 
 
 
-    handleCalendly = () => {
-        window.Calendly.initPopupWidget({url: 'https://calendly.com/greelab/discovery-workshop-booking'});
-        return false
-    }
+    // handleCalendly = () => {
+    //     window.Calendly.initPopupWidget({url: 'https://calendly.com/greelab/discovery-workshop-booking'});
+    //     return false
+    // }
 
     handleInputName = (event) => {
         this.setState({
@@ -519,7 +519,7 @@ class Home extends Component {
                                         <h4>Want To Be A Therapy Provider?</h4>
                                         <h2>Join Our Provider Program</h2>
                                         <h5>Enhance your professional practice by offering your services on our platform</h5>
-                                        <p onClick={this.handleCalendly}>
+                                        <p>
                                             <button className="btn">
                                                 
                                                 Learn More
@@ -592,7 +592,7 @@ class Home extends Component {
                     >
                         <Lottie style={thankYouLottieStyle} options={thankYouLottieOptions}/>
                         <h1>Thank you for <br/> reaching out!</h1>
-                        <p>A member of the Gree Lab team <br/> will get back in touch with you as <br/> soon as possible.</p>
+                        <p>A member of the Nesoi team <br/> will get back in touch with you as <br/> soon as possible.</p>
                         <Link to='/'>
                             <button className='btn' onClick={this.modalClose}>Okay</button>
                         </Link>

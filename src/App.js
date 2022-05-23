@@ -7,7 +7,6 @@ import Form from "./app/home/Form";
 import Home from "./app/home/Home";
 import MainNav from "./app/static/MainNav";
 import Nav from "./app/static/Nav";
-import WebSolutions from "./app/web-solutions/WebSolutions";
 
 
 // import firebase from "firebase";
@@ -49,10 +48,10 @@ function App() {
                   <Login />
               </Route>
 
-              <Route path='/web-solutions'>
+              {/* <Route path='/web-solutions'>
                   <MainNav/>
                   <WebSolutions/>
-              </Route>
+              </Route> */}
 
               <Route path='**'>
                   <Nav/>
