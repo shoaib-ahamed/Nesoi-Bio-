@@ -35,7 +35,7 @@ function App() {
                   <Home/>
               </Route>
 
-              <Route path='/form'>
+                    <Route path='/form'>
                   <Nav/>
                   <Form/>
                   {/* <ContactUs/> */}

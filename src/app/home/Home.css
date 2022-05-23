@@ -223,7 +223,7 @@
   line-height: 21px;
   text-align: center;
   letter-spacing: -0.07em;
-  color: #0070c9;
+  color: var(--winterSky);
 }
 .content-six .quote {
   margin-top: 40px;
@@ -232,6 +232,7 @@
 .workshop {
   background: var(--winterSky);
 }
+
 .workshop .col-lg-5 {
   height: auto;
   display: grid;
@@ -311,7 +312,7 @@
   font-size: 36px;
   line-height: 42px;
   letter-spacing: -0.07em;
-  color: #0070c9;
+  color: var(--winterSky);
   margin-bottom: 40px;
 }
 .contact-form h2 {
@@ -326,7 +327,7 @@
 .contact-form button {
   font-family: "Roboto", Bold, sans-serif;
   font-weight: 700;
-  background: #0070c9;
+  background: var(--winterSky);
   color: #ffffff;
   font-size: 36px;
   line-height: 42px;

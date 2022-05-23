@@ -363,7 +363,7 @@ class Home extends Component {
                                         <div className="project-process">
                                              <div className="d-flex mb-2">
                                                 <h6>1</h6>
-                                                <h3> Check-Up </h3>
+                                                <h3 style={{fontSize: '8px'}}> Check-Up </h3>
                                             </div>
                                             <p>
                                             We take your screening data to provide a list of caregivers that can address your goals,
@@ -554,7 +554,6 @@ class Home extends Component {
                                         </div>
                                         <div className="submit-btn">
                                             <button type="submit" className="btn">Send</button>
-                                            <Lottie style={formLottie} options={getInTouchLottieOptions} />
                                         </div>
                                     </form>
                                 </div>
